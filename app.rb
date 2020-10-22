@@ -13,7 +13,8 @@ class App < Sinatra::Base
   end
 
   get '/say/:number/:phrase' do
-
+    @num_timez = params[:number]
+    @phrase = params[:phrase]
   end
 
 end
