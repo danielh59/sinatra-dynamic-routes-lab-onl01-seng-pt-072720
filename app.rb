@@ -25,7 +25,7 @@ class App < Sinatra::Base
     @word3 = params[:word3].to_s
     @word4 = params[:word4].to_s
     @word5 = params[:word5].to_s
-    "Say #{@word1 %20 @word2 %2 0@word3 %20 @word4 %20 @word5}."
+    "Say #{@word1 +%20 +@word2 %20 +@word3 %20 +@word4 %20 +@word5}."
   end
 
 end
