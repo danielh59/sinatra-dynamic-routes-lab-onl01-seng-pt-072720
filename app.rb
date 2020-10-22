@@ -3,11 +3,11 @@ require_relative 'config/environment'
 class App < Sinatra::Base
   # Write your code here!
   get '/reversename/:name'
-end 
+end
   get '/square/:number'
-end 
+end
 
   get '/say/:number/:phrase'
-end 
+end
 
 end
