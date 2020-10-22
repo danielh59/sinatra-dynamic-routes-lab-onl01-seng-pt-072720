@@ -28,8 +28,8 @@ class App < Sinatra::Base
     "Say #{@word1} #{@word2} #{@word3} #{@word4} #{@word5}."
   end
 
-  get
-
+  get '/:operation/:number1/:number2' do
+      
   end
 
 end
