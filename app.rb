@@ -19,7 +19,6 @@ class App < Sinatra::Base
       @phrase
     end
       "#{x}"
-
   end
 
 end
