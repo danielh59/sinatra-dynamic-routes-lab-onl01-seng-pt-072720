@@ -17,6 +17,7 @@ class App < Sinatra::Base
     @phrase = params[:phrase]
     x = @num_timez.times do
       @phrase
+      "#{x}"
 
   end
 
