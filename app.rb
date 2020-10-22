@@ -16,7 +16,7 @@ class App < Sinatra::Base
     @num_timez = params[:number].to_i
     @phrase = params[:phrase]
     @x = @num_timez.times do
-      @phrase
+      puts @phrase
     end
       "#{@x}"
   end
